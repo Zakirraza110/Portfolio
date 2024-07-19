@@ -646,6 +646,16 @@ input[type="submit"]:hover {
         align-items: center;
     }
 
+    .navi li {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .navi li a{
+        display: inline-block;
+        width: 100%;
+    }
+
     .nav-items ul.navigation {
         display: none;
     }

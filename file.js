@@ -94,3 +94,9 @@ function bx_close(){
     document.getElementById("open_menu").style.display="flex";
     document.getElementById("close_menu").style.display="none";
 }
+
+function close_navi(){
+    document.getElementById('navi').style.display='none';
+    document.getElementById("open_menu").style.display="flex";
+    document.getElementById("close_menu").style.display="none";
+}

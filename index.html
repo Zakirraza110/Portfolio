@@ -11,94 +11,75 @@
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/c681fd371f.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
-    <title>Portfolio || Zakir</title>
+    <title>Ideas In Coding- Zakir Raza</title>
 </head>
 
 <body>
 
-    <section class="nav">
+    <div class="nav">
         <div class="container">
             <div class="nav-items">
-                <h1><a href="index.html">ZAKIR</a></h1>
+                <img src="Images/zakir logo.png" alt="Logo">
                 <ul class="navigation">
                     <li><a href="#education"><i class="fa-solid fa-book"></i>EDUCATION</a></li>
                     <li><a href="#skills"><i class="fa-solid fa-screwdriver-wrench"></i>SKILLS</a></li>
                     <li><a href="#experience">EXPERIENCE</a></li>
-                    <li><a href="#profiles"><i class="fa-solid fa-user"></i>PROFILE</a></li>
-                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#certificate">CERTIFICATION</a></li>
+                    <li><a href="#portfolio">PROJECTS</a></li>
                     <li><a href="#contact"><i class="fa-solid fa-phone" aria-hidden="true"></i>CONTACT</a></li>
                 </ul>
                 <button onclick="bx_open()" id="open_menu"><i class="fa-solid fa-bars"></i></button>
                 <button onclick="bx_close()" id="close_menu"><i class="fa-solid fa-xmark"></i></button>
             </div>
             <ul class="navi" id="navi">
-                <li><a href="#education"><i class="fa-solid fa-book"></i>EDUCATION</a></li>
-                <li><a href="#skills"><i class="fa-solid fa-screwdriver-wrench"></i>SKILLS</a></li>
-                <li><a href="#experience">EXPERIENCE</a></li>
-                <li><a href="#profiles"><i class="fa-solid fa-user"></i>PROFILE</a></li>
-                <li><a href="#portfolio">PORTFOLIO</a></li>
-                <li><a href="#contact"><i class="fa-solid fa-phone" aria-hidden="true"></i>CONTACT</a></li>
+                <li onclick="close_navi()"><a href="#education"><i class="fa-solid fa-book"></i>EDUCATION</a></li>
+                <li onclick="close_navi()"><a href="#skills"><i class="fa-solid fa-screwdriver-wrench"></i>SKILLS</a>
+                </li>
+                <li onclick="close_navi()"><a href="#experience">EXPERIENCE</a></li>
+                <li onclick="close_navi()"><a href="#certificate">CERTIFICATION</a></li>
+                <li onclick="close_navi()"><a href="#portfolio">Projects</a></li>
+                <li onclick="close_navi()"><a href="#contact"><i class="fa-solid fa-phone"
+                            aria-hidden="true"></i>CONTACT</a></li>
             </ul>
         </div>
-    </section>
+    </div>
 
-    <section class="banner">
+    <div class="banner">
         <div class="container">
             <div class="content_banner">
                 <h2>HI<span>,</span> I AM<br>ZAKIR<br>Raza<span>.</span></h2>
                 <p>Front-End Developer</p>
-                <a href="Images/CV.pdf" download="CV.pdf" target="_blank"><button>Download Resume</button></a>
+                <a href="Images/Zakir Raza.pdf" download="CV.pdf" target="_blank"><button>Download Resume</button></a>
             </div>
         </div>
-    </section>
+    </div>
 
     <section class="about">
+        <h1>ABOUT ME</h1>
         <div class="container">
             <div class="content_about">
-                <h1>ABOUT ME</h1>
-                <hr>
-                <div class="row content_sec_three">
-                    <div class="col-7 main_sec_three_content">
-                        <h3>I am passionate and dedicated front-end developer with a proven track record of creating
-                            visually stunning and highly functional web applications. With a keen eye for design and a
-                            meticulous approach to coding, Zakir excels in translating complex requirements into
-                            seamless user experiences.</h3>
-                        <p>I am a committed front-end developer known for his punctuality, problem-solving skills, and
-                            collaborative spirit. With a keen eye for detail, he excels in creating visually appealing
-                            and functional web applications. His commitment to continuous learning and excellence
-                            ensures that every project he undertakes meets the highest standards.</p>
-                        <hr>
-                        <div class="details">
-                            <div class="phn">
-                                <h5>Phone</h5>
-                                <a href="tel:+92 329 3271727">0329-3271727</a>
-                            </div>
-                            <div class="phn">
-                                <h5>Email</h5>
-                                <a href="mailto:zaakiraza110@gmail.com">zaakiraza110@gmail.com</a>
-                            </div>
-                            <div class="phn">
-                                <h5>Website</h5>
-                                <a href="index.html">Portfolio</a>
-                            </div>
-                        </div>
+                <h3>I am passionate and dedicated front-end developer with a proven track record of creating
+                    visually stunning and highly functional web applications. With a keen eye for design and a
+                    meticulous approach to coding, Zakir excels in translating complex requirements into
+                    seamless user experiences.
+                </h3>
+                <p>I am a committed front-end developer known for his punctuality, problem-solving skills, and
+                    collaborative spirit. With a keen eye for detail, he excels in creating visually appealing
+                    and functional web applications. His commitment to continuous learning and excellence
+                    ensures that every project he undertakes meets the highest standards.
+                </p>
+                <div class="details">
+                    <div class="phn">
+                        <h4>Phone</h4>
+                        <a href="tel:+92 329 3271727">0329-3271727</a>
                     </div>
-                    <div class="col-5 about_img">
-                        <!-- <img src="Images/profile_image.jpg" alt=""> -->
-                        <img src="Images/6.png" alt="">
-                        <ul class="cover_logos">
-                            <li><a href="https://www.linkedin.com/in/zakir-raza-b56284281/" target="_blank"><i
-                                        class="fa-brands fa-linkedin"></i></a></li>
-                            <li><a href="https://github.com/Zakirraza110" target="_blank"><i
-                                        class="fa-brands fa-github"></i></a></li>
-                            <li><a href="https://www.hackerrank.com/profile/zaakiraza110" target="_blank"><i
-                                        class="fa-brands fa-hackerrank"></i></a></li>
-                            <li><a href="mailto:zaakiraza110@gmail.com" target="_blank"><i
-                                        class="fa-solid fa-envelope"></i></a></li>
-                            <li><a href="tel:+92 329 3271727" target="_blank"><i
-                                        class="fa-brands fa-whatsapp"></i></i></a>
-                            </li>
-                        </ul>
+                    <div class="phn">
+                        <h4>Email</h4>
+                        <a href="mailto:zaakiraza110@gmail.com">zaakiraza110@gmail.com</a>
+                    </div>
+                    <div class="phn">
+                        <h4>Website</h4>
+                        <a href="index.html">Portfolio</a>
                     </div>
                 </div>
             </div>
@@ -106,52 +87,40 @@
     </section>
 
     <section class="education" id="education">
+        <h1>EDUCATION</h1>
         <div class="container">
-            <h1>EDUCATION</h1>
-            <hr>
             <div class="row content_four">
                 <div class="col-4">
                     <h5>2020-2022</h5>
                     <h6>Intermediate in Pre-Engineering</h6>
-                    <hr>
-                    <h5>Fatimiyah College</h5>
-                    <p>Karachi, Pakistan</p>
-                    <p>I have completed my Intermediate in Pre-Engineering from Fatimiyah College, known for my rigorous
-                        academic environment and emphasis on foundational engineering principles. The college provided
-                        me a strong basis in mathematics, physics, and chemistry, setting the stage for his future
-                        studies in technology and engineering.</p>
+                    <h5>Fatimiyah College, Karachi, Pakistan</h5>
+                    <p>I completed my Intermediate in Pre-Engineering from Fatimiyah College, where I gained a strong
+                        foundation in mathematics, physics, and chemistry, setting the stage for my future studies in
+                        technology and engineering.</p>
                 </div>
                 <div class="col-4">
                     <h5>2022-2026(Currently Enrolled)</h5>
                     <h6>Bachelors in Computer Science</h6>
-                    <hr>
-                    <h5>Mohammad Ali Jinnah University</h5>
-                    <p>Karachi, Pakistan</p>
-                    <p>I am currently pursuing Bachelor's in Computer Science at Mohammad Ali Jinnah University, a
-                        prestigious institution renowned for his comprehensive computer science curriculum and
-                        innovative research opportunities. Here, I am gaining in-depth knowledge in various areas of
-                        computer science, from programming and software development to data structures and algorithms.
-                    </p>
+                    <h5>Mohammad Ali Jinnah University, Karachi, Pakistan</h5>
+                    <p>I am pursuing a Bachelor's in Computer Science at Mohammad Ali Jinnah University, known for its
+                        comprehensive curriculum and research opportunities. I'm gaining in-depth knowledge in
+                        programming, software development, data structures, and algorithms.</p>
                 </div>
                 <div class="col-4">
                     <h5>2024-2025(Currently Enrolled)</h5>
                     <h6>Web Development</h6>
-                    <hr>
-                    <h5>Saylani Numaish Campus</h5>
-                    <p>Karachi, Pakistan</p>
-                    <p>I am also enrolled in a Web Development course at Saylani Numaish Campus, an institute recognized
-                        for its practical and hands-on approach to learning. This program is equipping me with the
-                        latest web development skills and techniques, enhancing my ability to create dynamic and
-                        responsive websites.</p>
+                    <h5>Saylani Numaish Campus, Karachi, Pakistan</h5>
+                    <p>I am enrolled in a Web Development course at Saylani Numaish Campus, known for its practical
+                        approach to learning. This program is equipping me with the latest web development skills and
+                        techniques to create dynamic and responsive websites.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <section class="skills" id="skills">
+        <h1>SKILLS</h1>
         <div class="container">
-            <h1>SKILLS</h1>
-            <hr>
             <div class="row skills_all">
                 <div class="col-5">
                     <div class="skill-item">
@@ -205,72 +174,75 @@
     </section>
 
     <section class="experience" id="experience">
+        <h1>EXPERIENCE</h1>
         <div class="container">
-            <h1>EXPERIENCE</h1>
             <div class="row exp">
-                <div class="col-6 exp1">
-                    <h4>2024</h4>
-                    <h4>Front-End Developer</h4>
+                <div class="col-6">
+                    <div class="exp1">
+                        <h4>2024</h4>
+                        <h4>Front-End Developer</h4>
+                    </div>
+                    <div class="exp1">
+                        <h4>2024</h4>
+                        <h4>Front-End Developer</h4>
+                    </div>
+                    <div class="exp1">
+                        <h4>2024</h4>
+                        <h4>Front-End Developer</h4>
+                    </div>
                 </div>
-                <div class="col-6 exp2">
-                    <h4>Google Developer Student Club(GDSC)</h4>
-                    <h6>Remote</h6>
-                    <p>Zakir serves as a Front-End Developer at Google Developer Student Club (GDSC), focusing on
-                        creating intuitive and visually appealing web interfaces. Working remotely, he collaborates with
-                        a global team to deliver impactful digital solutions.</p>
+                <div class="col-6">
+                    <div class="exp2">
+                        <h4>Google Developer Student Club(GDSC)</h4>
+                        <h6>Remote</h6>
+                        <p>Zakir serves as a Front-End Developer at Google Developer Student Club (GDSC), focusing on
+                            creating intuitive and visually appealing web interfaces. Working remotely, he collaborates
+                            with
+                            a global team to deliver impactful digital solutions.</p>
+                    </div>
+                    <div class="exp2">
+                        <h4>NextGenDev</h4>
+                        <h6>Remote</h6>
+                        <p>As an Internee at NextGenDev, I utilized HTML5, CSS3, and JavaScript to
+                            develop visually engaging and user-friendly websites that captivated both our
+                            clients and their audiences. I worked in close collaboration with our design
+                            and development teams to transform ideas into reality.
+                            </p>
+                    </div>
+                    <div class="exp2">
+                        <h4>PlacementDost</h4>
+                        <h6>Remote</h6>
+                        <p>As an Internee Front-end Web Developer at PlacementDost, my role involved crafting
+                            visually engaging and user-friendly websites to captivate both our clients and
+                            their audiences. I worked closely with our design and development teams to
+                            bring concepts to life.
+                            </p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="profiles" id="profiles">
-        <h1>PROFILES</h1>
+    <section class="certificate" id="certificate">
+        <h1>Certifcate</h1>
         <div class="container">
-            <div class="content_profile">
-                <div class="bxs1 fst-item">
-                    <div class="box">
-                        <img src="Images/github.png" alt="">
-                        <p>Github</p>
-                    </div>
-                    <div class="box">
-                        <img src="Images/github.png" alt="">
-                        <p>Github</p>
-                    </div>
-                    <div class="box">
-                        <img src="Images/github.png" alt="">
-                        <p>Github</p>
-                    </div>
-                    <div class="box bx_item2">
-                        <img src="Images/github.png" alt="">
-                        <p>Github</p>
-                    </div>
+            <div class="certificated_itms">
+                <div class="c_itm1">
+                    <iframe src="Images/experience letter behindev.pdf"></iframe>
+                    <iframe src="Images/Google Developer.pdf"></iframe>
                 </div>
-                <div class="bxs1 sec_item">
-                    <div class="box">
-                        <img src="Images/github.png" alt="">
-                        <p>Github</p>
-                    </div>
-                    <div class="box">
-                        <img src="Images/github.png" alt="">
-                        <p>Github</p>
-                    </div>
-                    <div class="box">
-                        <img src="Images/github.png" alt="">
-                        <p>Github</p>
-                    </div>
-                    <div class="box bx_item2">
-                        <img src="Images/github.png" alt="">
-                        <p>Github</p>
-                    </div>
+                <div class="c_itm1">
+                    <iframe src="Images/IBM PY0101EN-1.pdf"></iframe>
+                    <iframe src="Images/Web 3.0.pdf"></iframe>
                 </div>
             </div>
         </div>
     </section>
 
     <section class="portfolio" id="portfolio">
+        <h1>Portfolio</h1>
         <div class="container">
             <div class="content_portfolio">
-                <h1>Portfolio</h1>
                 <div class="portfolio_items">
                     <div class="portfolio_main">
                         <div class="image_background" id="img1">
@@ -305,8 +277,6 @@
                     <input type="text" name="name" placeholder="Name*" required> <br> <br>
                     <input type="email" name="email" placeholder="E-mail*" required> <br> <br>
                     <input type="number" name="number" maxlength="11" placeholder="Phone*" required> <br> <br>
-                    <input type="text" name="company" placeholder="Company"> <br> <br>
-                    <input type="text" name="subject" placeholder="Subject"> <br> <br>
                     <textarea name="msg" cols="30" rows="5" placeholder="Message" required></textarea>
                     <input type="submit" placeholder="Submit">
                 </form>

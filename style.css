@@ -40,7 +40,7 @@ section h1:first-of-type {
 }
 
 .nav-items img {
-    width: 17%;
+    width: 50%;
 }
 
 ul.navigation {
@@ -692,7 +692,7 @@ input[type="submit"]:hover {
 
 @media screen and (max-width: 530px) {
     .nav-items img {
-        width: 40%;
+        width: 50%;
     }
 
     .phn a {
